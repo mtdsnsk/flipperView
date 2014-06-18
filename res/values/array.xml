@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="test_array_drawable">
+        <item>@drawable/unknown</item>
+        <item>@drawable/unknown2</item>
+        <item>@drawable/unknown3</item>
+        <item>@drawable/unknown4</item>
+        <item>@drawable/unknown5</item>
+        <item>@drawable/unknown6</item>
+        <item>@drawable/unknown7</item>
+        <item>@drawable/images2</item>
+        <item>@drawable/images3</item>
+        <item>@drawable/images4</item>
+        <item>@drawable/images5</item>
+        <item>@drawable/images6</item>
+    </string-array>
+
+</resources>

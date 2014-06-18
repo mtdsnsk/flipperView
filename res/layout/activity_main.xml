@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.viewflipper.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:id="@+id/mainLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pagenum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <HorizontalScrollView
+            android:id="@+id/hsv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff0000" >
+
+            <LinearLayout
+                android:id="@+id/hsvLinear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ViewFlipper
+            android:id="@+id/flipper"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <!--
+            <include
+                android:id="@+id/firstlayout"
+                layout="@layout/first" />
+
+            <include
+                android:id="@+id/secondlayout"
+                layout="@layout/second" />
+
+            <include
+                android:id="@+id/thirdlayout"
+                layout="@layout/third" />
+            -->
+        </ViewFlipper>
+    </LinearLayout>
+
+</FrameLayout>

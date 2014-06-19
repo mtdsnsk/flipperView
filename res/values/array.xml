@@ -15,5 +15,39 @@
         <item>@drawable/images5</item>
         <item>@drawable/images6</item>
     </string-array>
+    
+    <array name="buttons">
+        <item>@drawable/buttondesign</item>
+        <item>@drawable/buttondesign2</item>
+        <item>@drawable/buttondesign3</item>
+        <item>@drawable/buttondesign4</item>
+        <item>@drawable/buttondesign5</item>
+        <item>@drawable/buttondesign6</item>
+        <item>@drawable/buttondesign7</item>
+        <item>@drawable/buttondesign8</item>
+        <item>@drawable/buttondesign9</item>
+        <item>@drawable/buttondesign10</item>
+        <item>@drawable/buttondesign11</item>
+        <item>@drawable/buttondesign12</item>
+        <item>@drawable/buttondesign13</item>
+    </array>
+
+    <array name="colors">
+        <item>#FF0000</item>
+        <item>#1E90FF</item>
+        <item>#B0C4DE</item>
+        <item>#000080</item>
+        <item>#98FB98</item>
+        <item>#DEB887</item>
+        <item>#5F9EA0</item>
+        <item>#A9A9A9</item>
+        <item>#FFDEAD</item>
+        <item>#00008B</item>
+        <item>#87CEFA</item>
+        <item>#F08080</item>
+        <item>#40E0D0</item>
+        <item>#AFEEEE</item>
+        <item>#CD5C5C</item>
+    </array>
 
 </resources>

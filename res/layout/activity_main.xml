@@ -12,16 +12,18 @@
         android:layout_height="match_parent"
         android:orientation="vertical" >
 
+        <!--
         <TextView
             android:id="@+id/pagenum"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+        -->
 
         <HorizontalScrollView
             android:id="@+id/hsv1"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#ff0000" >
+            android:layout_height="wrap_content" 
+            android:scrollbars="none">
 
             <LinearLayout
                 android:id="@+id/hsvLinear"
@@ -35,20 +37,6 @@
             android:id="@+id/flipper"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" >
-
-            <!--
-            <include
-                android:id="@+id/firstlayout"
-                layout="@layout/first" />
-
-            <include
-                android:id="@+id/secondlayout"
-                layout="@layout/second" />
-
-            <include
-                android:id="@+id/thirdlayout"
-                layout="@layout/third" />
-            -->
         </ViewFlipper>
     </LinearLayout>
 
